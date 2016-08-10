@@ -11,7 +11,7 @@ DHT implements the bittorrent DHT protocol in Go. Now it includes:
 
 It contains two modes, the standard mode and the crawling mode. The standard
 mode follows the BEPs, and you can use it as a standard dht server. The crawling
-mode aims to spide as more medata info as possiple. It doesn't follow the
+mode aims to crawl as more metadata info as possiple. It doesn't follow the
 standard BEPs protocol. With the crawling mode, you can build another Pirate Bay.
 
 [bthub.io](http://bthub.io) is a BT search engine based on the crawling mode.
@@ -55,4 +55,4 @@ func main() {
 
 ## License
 
-MIT.
+MIT, read more [here](https://github.com/shiyanhui/dht/blob/master/LICENSE)
